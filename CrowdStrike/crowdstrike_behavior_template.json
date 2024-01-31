@@ -1,0 +1,180 @@
+{
+    "attributes": {
+        "filename": {
+            "misp-attribute": "filename",
+            "description": "Name of the file",
+            "disable_correlation": true,
+            "ui-priority": 1
+        },
+        "filepath": {
+            "misp-attribute": "text",
+            "description": "Path of the file",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "cmdline": {
+            "misp-attribute": "text",
+            "description": "Command line executed",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "sha256": {
+            "misp-attribute": "sha256",
+            "description": "SHA256 hash of the file",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "md5": {
+            "misp-attribute": "md5",
+            "description": "MD5 hash of the file",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "user_name": {
+            "misp-attribute": "text",
+            "description": "Name of the user",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "user_id": {
+            "misp-attribute": "text",
+            "description": "ID of the user",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "description": {
+            "misp-attribute": "text",
+            "description": "Description of the behavior",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "severity": {
+            "misp-attribute": "text",
+            "description": "Severity of the behavior",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "confidence": {
+            "misp-attribute": "text",
+            "description": "Confidence level of the behavior",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "tactic": {
+            "misp-attribute": "text",
+            "description": "Tactic associated with the behavior",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "technique": {
+            "misp-attribute": "text",
+            "description": "Technique associated with the behavior",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "display_name": {
+            "misp-attribute": "text",
+            "description": "Display name of the behavior",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "alleged_filetype": {
+            "misp-attribute": "mime-type",
+            "description": "Alleged file type",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "scenario": {
+            "misp-attribute": "text",
+            "description": "Scenario of the behavior",
+            "ui-priority": 1,
+            "disable_correlation": true,
+            "multiple": true
+        },
+        "objective": {
+            "misp-attribute": "text",
+            "description": "Objective of the behavior",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "tactic_id": {
+            "misp-attribute": "text",
+            "description": "ID of the tactic",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "technique_id": {
+            "misp-attribute": "text",
+            "description": "ID of the technique",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "ioc_type": {
+            "misp-attribute": "text",
+            "description": "Type of IOC",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "ioc_value": {
+            "misp-attribute": "text",
+            "description": "Value of IOC",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "ioc_source": {
+            "misp-attribute": "text",
+            "description": "Source of IOC",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "ioc_description": {
+            "misp-attribute": "text",
+            "description": "Description of IOC",
+            "disable_correlation": true,
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "parent_sha256": {
+            "misp-attribute": "sha256",
+            "description": "SHA256 hash of the parent file",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "parent_md5": {
+            "misp-attribute": "md5",
+            "description": "MD5 hash of the parent file",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "parent_cmdline": {
+            "misp-attribute": "text",
+            "description": "Command line of the parent process",
+            "ui-priority": 1,
+            "multiple": true
+        },
+        "parent_process_graph_id": {
+            "misp-attribute": "text",
+            "description": "Process graph ID of the parent process",
+            "ui-priority": 1,
+            "multiple": true
+        }
+    },
+    "description": "An Object Template to encode Crowdstrike detection behaviors",
+    "meta-category": "misc",
+    "name": "crowdstrike-behavior",
+    "uuid": "",
+    "version": 1
+}
