@@ -13,10 +13,10 @@ Before running the script, install the required Python libraries:
 ```bash
 pip install -r requirements.txt
 ```
-
-- Create crowdstrike-behavior MISP custom object and put crowdstrike_behavior_template.json content in it. [Instructions](https://www.misp-project.org/2021/03/17/MISP-Objects-101.html/)
-
+- [Generate](https://www.uuidgenerator.net/) uuid for the crowdstrike-behavior object and add it to the object (`"uuid": "generated uuid"`) 
+- Create crowdstrike-behavior MISP custom object and put `crowdstrike_behavior_template.json` content in it. [Instructions](https://www.misp-project.org/2021/03/17/MISP-Objects-101.html/)
 - Perform the same steps and add the object under `/var/www/MISP/PyMISP/pymisp/data/misp-objects/objects/`
+- 
 ## Configuration
 Configure the script by setting the following variables in `settings.py`:
 
