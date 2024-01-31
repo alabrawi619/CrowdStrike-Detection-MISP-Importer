@@ -53,3 +53,7 @@ Contributions to the script are welcome!
 Taha Al-Abrawi
 
 [LinkedIn](www.linkedin.com/in/taha-al-abrawi-791029215)
+
+## Reference
+
+[crowdstrike-MISP-importer](https://www.crowdstrike.com/resources/community-tools/crowdstrike-MISP-importer/)
